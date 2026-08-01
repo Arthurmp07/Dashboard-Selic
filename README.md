@@ -78,15 +78,6 @@ O teste roda o `app.py` inteiro com dados sintéticos (sem precisar de
 internet) e falha se qualquer parte do app lançar uma exceção — útil para
 validar antes de publicar.
 
-## Sugestão de texto para o post
-
-> Como a variação da Selic afeta o seu bolso nos últimos 5 anos — em um
-> dashboard interativo com dados oficiais do Banco Central. 📊
->
-> [imagem ou link do app]
->
-> Fonte: Banco Central do Brasil (SGS) · api.bcb.gov.br
-
 ## Customizar
 
 - **Cores/tema:** edite o dicionário `PALETA` no topo de `app.py` (e o
