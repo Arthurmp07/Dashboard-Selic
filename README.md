@@ -52,21 +52,8 @@ Se você só quer a imagem (sem publicar o app), rode:
 python export_linkedin_image.py --anos 5 --saida painel_selic.png
 ```
 
-Isso gera um `.png` em 1200×1500px (formato retrato, bom para o feed do
-LinkedIn), com título, KPIs, os dois gráficos principais e a fonte dos
+Isso gera um `.png` em 1200×1500px, com título, KPIs, os dois gráficos principais e a fonte dos
 dados — sem precisar do Streamlit rodando.
-
-## Publicar o app de graça (link ao vivo pro LinkedIn)
-
-O jeito mais simples é o **Streamlit Community Cloud** (gratuito):
-
-1. Suba esta pasta para um repositório no GitHub.
-2. Entre em [share.streamlit.io](https://share.streamlit.io), conecte o
-   repositório e aponte para `app.py`.
-3. Em alguns minutos você tem uma URL pública (`seu-app.streamlit.app`) —
-   ótima para colocar no comentário fixado do post, já que o LinkedIn não
-   permite embutir apps interativos diretamente no feed.
-
 ## Rodar os testes
 
 ```bash
